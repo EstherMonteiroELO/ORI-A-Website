@@ -47,6 +47,21 @@ Binnen ORI-A zijn de volgende vergaderstuktypes gedefinieerd. Deze types kunnen 
 
 Binnen ORI-A zijn de enkele rollen waarin een `<aanwezigeDeelnemer>` in een vergadering aanwezig kan zijn gedefinieerd:
 
+
+| Label                 | Definitie                                                              |
+|:----------------------|:-----------------------------------------------------------------------|
+| Voorzitter            | De voorzitter van de vergadering.                                      |
+| Vice-voorzitter       | De vice-voorzitter van de vergadering.                                 |
+| Portefeuillehouder    | Ambtenaar die de verantwoordelijk draagt over een besproken onderwerp. |
+| Griffier              | Hoofd van de griffie.                                                 |
+| Raadslid              | Gekozen volksvertegenwoordiger binnen een gemeente.                    |
+| Statenlid             | Gekozen volksvertegenwoordiger binnen een provincie.                   |
+| Kamerlid              | Gekozen volksvertegenwoordiger binnen de eerst of tweede kamer.        |
+| Dagelijks bestuurslid | Lid van een dagelijks bestuur.                                         |
+| Algemeen bestuurslid  | Lid van het algemeen bestuur van een waterschap.                       |
+| Inspreker             | Niet-lid dat inspreekt tijdens de vergadering.                         |
+| <del>Overig</del>     | -                                                                      |
+
 ::: waarschuwing
 De rol "Overig" bestaat om compatibiliteit met het oorspronkelijke ORI informatiemodel te garanderen. Het gebruik van deze rol wordt afgeraden. Als de bestaande rollen niet toereikend zijn, heb je drie opties:
 
@@ -55,21 +70,6 @@ De rol "Overig" bestaat om compatibiliteit met het oorspronkelijke ORI informati
 3. Deze begrippenlijst uitbreiden
 
 :::
-
-
-| Label                 | Definitie                                                              |
-|:----------------------|:-----------------------------------------------------------------------|
-| Voorzitter            | De voorzitter van de vergadering.                                      |
-| Vice-voorzitter       | De vice-voorzitter van de vergadering.                                 |
-| Portefeuillehouder    | Ambtenaar die de verantwoordelijk draagt over een besproken onderwerp. |
-| Griffier              | Hoofd van het griffie.                                                 |
-| Raadslid              | Gekozen volksvertegenwoordiger binnen een gemeente.                    |
-| Statenlid             | Gekozen volksvertegenwoordiger binnen een provincie.                   |
-| Kamerlid              | Gekozen volksvertegenwoordiger binnen de eerst of tweede kamer.        |
-| Dagelijks bestuurslid | Lid van een dagelijks bestuur.                                         |
-| Algemeen bestuurslid  | Lid van het algemeen bestuur van een waterschap.                       |
-| Inspreker             | Niet-lid dat inspreekt tijdens de vergadering.                         |
-| <del>Overig</del>     | -                                                                      |
 
 # Betrokkene-vergaderstuk relaties
 
